@@ -3,7 +3,7 @@ if __name__ == "__main__":
     list2: list[int] = []
 
     # read values
-    with open("input.txt", "r") as input_file:
+    with open("../input.txt", "r") as input_file:
         for line in input_file.readlines():
             values: list[str] = line.split()
             list1.append(int(values[0]))
